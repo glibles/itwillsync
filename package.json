@@ -18,7 +18,9 @@
     "format:check": "prettier --check \"src/**/*.{ts,tsx,json}\"",
     "prepare": "husky install",
     "release": "changeset publish",
-    "version": "changeset version"
+    "version": "changeset version",
+    "clean": "rm -rf dist",
+    "rebuild": "npm run clean && npm run build"
   },
   "keywords": [
     "sync",
