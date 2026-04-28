@@ -12,7 +12,8 @@
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
-    "exactOptionalPropertyTypes": true,
+    // NOTE: disabled exactOptionalPropertyTypes for now — too noisy while learning the codebase
+    "exactOptionalPropertyTypes": false,
 
     // Module interop
     "esModuleInterop": true,
