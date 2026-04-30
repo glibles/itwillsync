@@ -20,7 +20,8 @@
     "release": "changeset publish",
     "version": "changeset version",
     "clean": "rm -rf dist",
-    "rebuild": "npm run clean && npm run build"
+    "rebuild": "npm run clean && npm run build",
+    "typecheck": "tsc --noEmit"
   },
   "keywords": [
     "sync",
