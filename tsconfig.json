@@ -38,5 +38,7 @@
     "skipLibCheck": true
   },
   "include": ["src/**/*.ts", "src/**/*.tsx"],
+  // NOTE: keeping test files excluded from compilation but I run tsc --noEmit separately
+  // to still get type-checking on tests during development
   "exclude": ["node_modules", "dist", "**/*.test.ts", "**/*.spec.ts"]
 }
